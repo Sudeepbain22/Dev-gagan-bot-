@@ -20,14 +20,14 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
+API_ID       = os.getenv("API_ID", "20831812")
+API_HASH     = os.getenv("API_HASH", "9af7c0491f6f09017c3f491f571da3fe")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "7134772342:AAG5pRhX3oTPMyhpXIdfbFZcI0p2Wi0TXjE")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://aryanktr92:pBw41GcqtlnpFjwq@cluster0.nqsufox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "6951452958").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
@@ -42,11 +42,11 @@ INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
 # ─── USAGE LIMITS ───────────────────────────────────────────────────────────────
 FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
+PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "50000"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy6_pro")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username6_of_admin")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
